@@ -1,0 +1,260 @@
+body,
+body.boxed-wrapper .page-wrapper,
+.main-menu__bottom-inner,
+.coaching-one__hover-content,
+.blog-one__content,
+.about-one__experience {
+    background-color: #121315;
+}
+
+.main-menu__wrapper-inner,
+.video-one__left {
+    background-color: var(--treck-black);
+}
+
+.main-menu__contact-list li .text p,
+.main-menu__contact-list li .text p a,
+.main-menu__top-menu li a,
+.main-menu__search span,
+.main-menu .main-menu__list>li>a,
+.stricky-header .main-menu__list>li>a,
+.main-menu__call-sub-title,
+.main-menu__call-number span,
+.feature-one__sub-title,
+.feature-one__text,
+.section-title__tagline,
+.about-one__text,
+.about-one__points li .content p,
+.services-one__text,
+.video-one__points li .text p,
+.coaching-one__text,
+.coaching-one__hover-text,
+.testimonial-one__text,
+.countries-one__text,
+.team-one__sub-title,
+.contact-one__address-list li .text p,
+.blog-one__tag p,
+.blog-one__user .text p,
+.blog-one__comment p,
+.about-one__experience p {
+    color: #68696c;
+}
+
+.main-menu__search,
+.main-menu__call-number a,
+.feature-one__title a,
+.feature-one__text a,
+.section-title__title,
+.about-one__points li .content h3,
+.services-one__title a,
+.coaching-one__hover-title a,
+.testimonial-one__client-name,
+.countries-one__title a,
+.team-one__title a,
+.contact-one__address-top-title h3,
+.blog-one__title a {
+    color: var(--treck-white);
+}
+
+.main-menu__top-menu li a:before {
+    background-color: #323339;
+}
+
+.main-menu .main-menu__list>li.current>a,
+.main-menu .main-menu__list>li:hover>a,
+.stricky-header .main-menu__list>li.current>a,
+.stricky-header .main-menu__list>li:hover>a {
+    color: var(--treck-white);
+    text-shadow: 0.05px 0 0 rgb(255 255 255 / 80%);
+}
+
+.main-menu__btn {
+    border: 1px solid #323339;
+    color: #68696c;
+}
+
+.stricky-header.main-menu {
+    background-color: var(--treck-black);
+}
+
+
+.feature-one {
+    background-image: -moz-linear-gradient(90deg, rgb(15, 15, 17) 0%, rgb(18, 19, 21) 15%);
+    background-image: -webkit-linear-gradient(90deg, rgb(15, 15, 17) 0%, rgb(18, 19, 21) 15%);
+    background-image: -ms-linear-gradient(90deg, rgb(15, 15, 17) 0%, rgb(18, 19, 21) 15%);
+}
+
+.feature-one__single {
+    background-color: #1b1c1f;
+}
+
+.feature-one__btn {
+    color: #68696c;
+    border: 1px solid #323339;
+    background-color: transparent;
+}
+
+.section-title__border-box:before,
+.section-title__border-box:after {
+    background-color: #121315;
+}
+
+.about-one__points li .content::before {
+    background-color: #323339;
+}
+
+.about-one__points li .content::after {
+    border-right: 5px solid #323339;
+}
+
+.services-one__single-inner {
+    border: 1px solid #323339;
+}
+
+.services-one__single-inner:before {
+    background-color: #121315;
+    border: 1px solid #323339;
+    border-top: 0;
+    border-left: 0;
+}
+
+.services-one__single-inner:after {
+    background-color: #121315;
+    border: 1px solid #323339;
+    border-top: 0;
+    border-right: 0;
+}
+
+.video-one__left:before {
+    border: 1px dashed #2b2c32;
+}
+
+.video-one__points li {
+    background-image: -moz-linear-gradient(0deg, rgb(18, 19, 21) 0%, rgb(22, 23, 26) 100%);
+    background-image: -webkit-linear-gradient(0deg, rgb(18, 19, 21) 0%, rgb(22, 23, 26) 100%);
+    background-image: -ms-linear-gradient(0deg, rgb(18, 19, 21) 0%, rgb(22, 23, 26) 100%);
+}
+
+.coaching-one__hover-shape-1 {
+    background-image: -moz-linear-gradient(0deg, rgb(50, 51, 57) 0%, rgba(18, 19, 21, 0) 100%);
+    background-image: -webkit-linear-gradient(0deg, rgb(50, 51, 57) 0%, rgba(18, 19, 21, 0) 100%);
+    background-image: -ms-linear-gradient(0deg, rgb(50, 51, 57) 0%, rgba(18, 19, 21, 0) 100%);
+}
+
+.testimonial-one__wrap {
+    background-color: rgb(26, 27, 30);
+}
+
+.testimonial-one__icon span {
+    color: #323339;
+}
+
+.testimonial-one__client-sub-title {
+    color: #68696c;
+    border-bottom: 1px solid #47484b;
+}
+
+.testimonial-one__carousel.owl-theme .owl-nav .owl-prev {
+    color: var(--treck-white);
+    background-color: #121315;
+}
+
+.testimonial-one__carousel.owl-theme .owl-nav .owl-next {
+    color: var(--treck-white);
+    background-color: #121315;
+}
+
+.countries-one {
+    background-image: -moz-linear-gradient(90deg, rgb(15, 15, 17) 0%, rgb(18, 19, 21) 50%);
+    background-image: -webkit-linear-gradient(90deg, rgb(15, 15, 17) 0%, rgb(18, 19, 21) 50%);
+    background-image: -ms-linear-gradient(90deg, rgb(15, 15, 17) 0%, rgb(18, 19, 21) 50%);
+}
+
+.countries-one__bg {
+    opacity: .25;
+    mix-blend-mode: multiply;
+}
+
+.countries-one__single {
+    border: 1px solid #323339;
+}
+
+.countries-one__img-box::before,
+.countries-one__img-box::after {
+    background-color: #323339;
+}
+
+.countries-one__img::before {
+    border: 1px solid #323339;
+}
+
+.countries-one__single::before {
+    background-color: rgb(50, 51, 57);
+}
+
+.team-one__content {
+    background-image: -moz-linear-gradient(90deg, rgb(15, 15, 17) 0%, rgb(18, 19, 21) 100%);
+    background-image: -webkit-linear-gradient(90deg, rgb(15, 15, 17) 0%, rgb(18, 19, 21) 100%);
+    background-image: -ms-linear-gradient(90deg, rgb(15, 15, 17) 0%, rgb(18, 19, 21) 100%);
+}
+
+.contact-one__address-box {
+    background-color: var(--treck-black);
+}
+
+.contact-one__address-top {
+    background-image: -moz-linear-gradient(90deg, rgb(15, 15, 17) 0%, rgb(22, 23, 26) 100%);
+    background-image: -webkit-linear-gradient(90deg, rgb(15, 15, 17) 0%, rgb(22, 23, 26) 100%);
+    background-image: -ms-linear-gradient(90deg, rgb(15, 15, 17) 0%, rgb(22, 23, 26) 100%);
+}
+
+.contact-one__address-top:before {
+    border-top: 10px solid #0f0f11;
+}
+
+.contact-one__address-faq .faq-one-accrodion .accrodion {
+    background-color: var(--treck-black);
+    border-bottom: 1px solid #323339;
+}
+
+.contact-one__address-faq .faq-one-accrodion .accrodion-title h4 {
+    color: var(--treck-white);
+}
+
+.contact-one__address-faq .faq-one-accrodion .accrodion.active .accrodion-title h4 {
+    color: var(--treck-white);
+}
+
+.contact-one__address-faq .faq-one-accrodion .accrodion.active .accrodion-title h4::before {
+    color: var(--treck-white);
+}
+
+.brand-one__inner {
+    border-bottom: 1px solid rgba(32, 33, 36, 0.4);
+}
+
+.blog-one {
+    background-image: -moz-linear-gradient(90deg, rgb(15, 15, 17) 0%, rgb(18, 19, 21) 100%);
+    background-image: -webkit-linear-gradient(90deg, rgb(15, 15, 17) 0%, rgb(18, 19, 21) 100%);
+    background-image: -ms-linear-gradient(90deg, rgb(15, 15, 17) 0%, rgb(18, 19, 21) 100%);
+}
+
+.blog-one__tag {
+    background-color: #1a1b1e;
+}
+
+.blog-one__title {
+    border-bottom: 1px solid #202124;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*  */

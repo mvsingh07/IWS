@@ -1,0 +1,251 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('fonts/icomoon78ed.eot?orkqwr');
+  src: url('fonts/icomoon78ed.eot?orkqwr#iefix') format('embedded-opentype'),
+    url('fonts/icomoon78ed.ttf?orkqwr') format('truetype'),
+    url('fonts/icomoon78ed.woff?orkqwr') format('woff'),
+    url('fonts/icomoon78ed.svg?orkqwr#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+
+.icon-magnifying-glass:before {
+  content: "\e900";
+}
+
+.icon-success:before {
+  content: "\e901";
+}
+
+.icon-group:before {
+  content: "\e902";
+}
+
+.icon-chatting:before {
+  content: "\e903";
+}
+
+.icon-down:before {
+  content: "\e904";
+}
+
+.icon-minus:before {
+  content: "\e905";
+}
+
+.icon-shopping-cart:before {
+  content: "\e906";
+}
+
+.icon-plus:before {
+  content: "\e907";
+}
+
+.icon-licensing:before {
+  content: "\e908";
+}
+
+.icon-immigration:before {
+  content: "\e909";
+}
+
+.icon-deal:before {
+  content: "\e90a";
+}
+
+.icon-visa:before {
+  content: "\e90b";
+}
+
+.icon-document:before {
+  content: "\e90c";
+}
+
+.icon-success-1:before {
+  content: "\e90d";
+}
+
+.icon-chat:before {
+  content: "\e90e";
+}
+
+.icon-buildings:before {
+  content: "\e90f";
+}
+
+.icon-exchange:before {
+  content: "\e910";
+}
+
+.icon-application:before {
+  content: "\e911";
+}
+
+.icon-passport:before {
+  content: "\e912";
+}
+
+.icon-real-estate:before {
+  content: "\e913";
+}
+
+.icon-reading-book:before {
+  content: "\e914";
+}
+
+.icon-suitcase:before {
+  content: "\e915";
+}
+
+.icon-tour-guide:before {
+  content: "\e916";
+}
+
+.icon-clock:before {
+  content: "\e917";
+}
+
+.icon-consultant:before {
+  content: "\e918";
+}
+
+.icon-international-passport:before {
+  content: "\e919";
+}
+
+.icon-marketing:before {
+  content: "\e91a";
+}
+
+.icon-passport-1:before {
+  content: "\e91b";
+}
+
+.icon-passport-2:before {
+  content: "\e91c";
+}
+
+.icon-pdf-file:before {
+  content: "\e91d";
+}
+
+.icon-individual:before {
+  content: "\e91e";
+}
+
+.icon-report-card:before {
+  content: "\e91f";
+}
+
+.icon-time-check:before {
+  content: "\e920";
+}
+
+.icon-books:before {
+  content: "\e921";
+}
+
+.icon-stamp:before {
+  content: "\e922";
+}
+
+.icon-submit:before {
+  content: "\e923";
+}
+
+.icon-digitalization:before {
+  content: "\e924";
+}
+
+.icon-application-1:before {
+  content: "\e925";
+}
+
+.icon-education:before {
+  content: "\e926";
+}
+
+.icon-goals:before {
+  content: "\e927";
+}
+
+.icon-theater:before {
+  content: "\e928";
+}
+
+.icon-megaphone:before {
+  content: "\e929";
+}
+
+.icon-right-arrow:before {
+  content: "\e92a";
+}
+
+.icon-left-arrow:before {
+  content: "\e92b";
+}
+
+.icon-up-arrow:before {
+  content: "\e92c";
+}
+
+.icon-down-arrow:before {
+  content: "\e92d";
+}
+
+.icon-consulting:before {
+  content: "\e92e";
+}
+
+.icon-passport-3:before {
+  content: "\e92f";
+}
+
+.icon-tourist:before {
+  content: "\e930";
+}
+
+.icon-up-right:before {
+  content: "\e931";
+}
+
+.icon-graduating-student:before {
+  content: "\e932";
+}
+
+.icon-check:before {
+  content: "\e933";
+}
+
+.icon-condominium:before {
+  content: "\e934";
+}
+
+.icon-passport-4:before {
+  content: "\e935";
+}
+
+.icon-life-insurance:before {
+  content: "\e936";
+}

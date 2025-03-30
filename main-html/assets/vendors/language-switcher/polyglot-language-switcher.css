@@ -1,0 +1,149 @@
+@charset "utf-8";
+
+
+#polyglotLanguageSwitcher {}
+
+
+
+#polyglotLanguageSwitcher,
+#polyglotLanguageSwitcher * {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+#polyglotLanguageSwitcher ul {
+	list-style: none;
+}
+
+#polyglotLanguageSwitcher {
+	color: #fff !importent;
+	line-height: normal;
+	position: relative;
+	/* sets the initial position for the drop-down menu */
+}
+
+#polyglotLanguageSwitcher form {
+	display: none;
+}
+
+/* ---------------------------------------------------------------------- */
+/* JS-created Code
+/* ---------------------------------------------------------------------- */
+#polyglotLanguageSwitcher a {
+	text-decoration: none;
+	display: block;
+	background-repeat: no-repeat;
+	background-position: 1px center;
+	font-size: 14px;
+	color: #888888;
+	padding: 5px 36px 5px;
+	transition: all 500ms ease;
+}
+
+
+#polyglotLanguageSwitcher a.current:link,
+#polyglotLanguageSwitcher a.current:visited,
+#polyglotLanguageSwitcher a.current:active {
+	position: relative;
+	/* sets the initial position for the trigger arrow */
+}
+
+
+
+#polyglotLanguageSwitcher a.active {
+	/* This style is applied as long as the drop-down menu is visible. */
+	border-bottom: none !important;
+	border-radius: 3px 3px 0 0 !important;
+}
+
+#polyglotLanguageSwitcher span.trigger {
+	display: block;
+	position: absolute;
+	top: 5px;
+	right: 45px;
+}
+
+#polyglotLanguageSwitcher span.trigger:before {
+	content: '\f107';
+	font-family: "Font Awesome 5 Free";
+	position: absolute;
+	color: #848484;
+	top: 3px;
+	right: -28px;
+	font-weight: 900;
+	font-size: 14px;
+}
+
+
+
+#polyglotLanguageSwitcher a.current:hover span.trigger,
+#polyglotLanguageSwitcher a.current:active span.trigger,
+#polyglotLanguageSwitcher a.active span.trigger {
+	background-position: left bottom !important;
+}
+
+/* Drop-Down Menu */
+
+#polyglotLanguageSwitcher ul.dropdown {
+	display: none;
+	position: absolute;
+	top: 40px;
+	left: 0;
+	border-top: none !important;
+	border-radius: 0 0 0px 0px;
+	z-index: 99999;
+	background: #151515;
+	border-top: 1px solid rgba(var(--govity-white-rgb), .10);
+}
+
+#polyglotLanguageSwitcher ul.dropdown li {
+	width: 120px;
+	padding: 6px 10px;
+	display: block;
+	border-top: 1px solid rgba(var(--govity-white-rgb), .10);
+	transition: all 0.2s ease-in-out;
+}
+
+#polyglotLanguageSwitcher ul.dropdown li a {
+	width: 100%;
+}
+
+.top_header #polyglotLanguageSwitcher ul.dropdown li:after {
+	display: none !important;
+
+}
+
+#polyglotLanguageSwitcher ul.dropdown li:first-child {
+	border: none;
+}
+
+#polyglotLanguageSwitcher ul.dropdown li:last-child {
+	border-radius: 0 0 3px 3px;
+}
+
+#polyglotLanguageSwitcher ul.dropdown li:hover a {
+	color: #ddd;
+}
+
+/* Flags */
+
+#en {
+	background-image: url(en.png);
+}
+
+#fr {
+	background-image: url(fr.png);
+}
+
+#de {
+	background-image: url(gr.png);
+}
+
+#it {
+	background-image: url(it.png);
+}
+
+#es {
+	background-image: url(es.png);
+}
